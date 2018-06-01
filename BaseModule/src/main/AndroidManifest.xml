@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.LY.basemodule">
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读内存权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 写内存权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- 定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" />
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+    </application>
+
+</manifest>
